@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactividad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="dark">
+
+<body>
+    <section id="attract">
+        <button id="toggle-theme-btn">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </section>
+
     <h1>Dark Mode</h1>
-    <button id="toggle-theme-btn">Toggle Dark Mode</button>
-    <script src="./js/script.js"></script>
+    <input type="color" id="color-picker">
+    <input type="color" id="background-picker">
+    <!-- <script src="./js/script.js"></script> -->
     <script src="./js/dark-mode.js"></script>
     <script>
         // Esto es un comentario
@@ -20,4 +30,5 @@
         */
     </script>
 </body>
+
 </html>

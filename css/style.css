@@ -11,3 +11,40 @@ body.dark {
     background-color: var(--dark);
     color: var(--light);
 }
+
+section#attract {
+    position: fixed;
+    background-color: rgb(60, 35, 60);
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+button {
+    cursor: pointer;
+    transition: all 1s;
+    background-color: var(--dark);
+    color: var(--light);
+    cursor: pointer;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+    font-size: 34px;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: #f0f0f0;
+    color: black;
+    border-radius: 0;
+}
